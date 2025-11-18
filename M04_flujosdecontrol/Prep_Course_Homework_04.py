@@ -10,7 +10,6 @@
 
 
 
-
 # 2) Crear dos variables y un condicional que informe si son del mismo tipo de dato
 
 # In[5]:
