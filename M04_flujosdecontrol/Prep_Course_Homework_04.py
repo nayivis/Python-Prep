@@ -6,15 +6,24 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla si es mayor o menor a cero
 
 # In[4]:
-
-
-
+a=5
+if(a>0):
+  print('la variable es mayor que cero')
+elif(a<0):
+  print('la variable es menor que cero')
+else:  
+  print('la variable es igual a cero')
 
 
 # 2) Crear dos variables y un condicional que informe si son del mismo tipo de dato
 
 # In[5]:
-
+a=7
+b='pan'
+if(type(a)==type(b)):
+  print('las variables son del mismo tipo')
+else:
+  print('las variables son de diferentes tipos de datos')
 
 
 
@@ -22,6 +31,11 @@
 # 3) Para los valores enteros del 1 al 20, imprimir por pantalla si es par o impar
 
 # In[7]:
+for valor in range(1,20):
+  if((valor%2)==0):    
+    print(valor ' : es par')
+  else:
+    print(valor ' : es impar')
 
 
 
@@ -30,6 +44,9 @@
 # 4) En un ciclo for mostrar para los valores entre 0 y 5 el resultado de elevarlo a la potencia igual a 3
 
 # In[9]:
+for valores in range (0,5):
+  potencia= valores**3
+  print(valores, 'levado a la 3 es : ', potencia)
 
 
 
@@ -38,14 +55,30 @@
 # 5) Crear una variable que contenga un número entero y realizar un ciclo for la misma cantidad de ciclos
 
 # In[10]:
-
-
+b=10
+for a in range(b):
+print(a)
 
 
 
 # 6) Utilizar un ciclo while para realizar el factoreo de un número guardado en una variable, sólo si la variable contiene un número entero mayor a 0
 
 # In[33]:
+a = 5
+if (type(a) == int):
+    if (a > 0):
+        b=1
+        factorial = 1
+        while (b<= a):
+            factorial = factorial * b
+            b+=1
+        print('El factorial es', factorial)
+    else:
+        print('La variable no es mayor a cero')
+else:
+    print('La variable no es un entero')
+    
+  
 
 
 
