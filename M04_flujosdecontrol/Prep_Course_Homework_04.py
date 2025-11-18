@@ -6,6 +6,13 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla si es mayor o menor a cero
 
 # In[4]:
+a=5
+if(a>0):
+  print('la variable es mayor que cero')
+elif(a<0):
+  print('la variable es menor que cero')
+else:  
+  print('la variable es igual a cero')
 
 
 
